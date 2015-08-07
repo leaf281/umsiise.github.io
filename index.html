@@ -1,94 +1,143 @@
+
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="shortcut icon" href="http://rely.io/img/icon.png">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Linh Nguyen&#39;s website">
-    <meta name="author" content="Linh ounn">
 
-    <title>Linh Nguyen's website</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <!--link href="http://rely.io/css/rely.css" rel="stylesheet"--> 
-    <link href="css/rely.css" rel="stylesheet"> 
-    <!-- Custom Fonts -->
-    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-              ga('create', 'UA-57269811-1', 'auto');
-              ga('require', 'displayfeatures');
-              ga('send', 'pageview');
-
-    </script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+<html class="no-js"> 
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Linh Nguyen</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="shortcut icon" href="http://rely.io/img/icon.png">
+<!-- Les styles -->
+<link href="css/lato.css" rel="stylesheet">
+<link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="css/navbar.css">
 </head>
 
-<body style="">
+<body data-spy="scroll" data-target=".navbar" bgcolor="lightgrey">
+<div class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">LINH NGUYEN</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Current Projects</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 
-    <!-- Header -->
-    <div class="intro-header">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3 hidden-xs">
+            <div class="sidebar-bio">
+                <div class="thumbnail">
+                    <img src="img/rsz_1me.jpg" alt="Linh Nguyen">
+                </div>
+                <div class="section about">
+                    <span class="label label-default">About</span> <br>
+                    <i class="fa fa-angle-right icon"></i> <a href="CV.pdf" target="_blank">C.V.</a> <br>
+                    <i class="fa fa-angle-right icon"></i> <a href="https://github.com/vlnguyen92" target="_blank">Github</a>
+                </div>
+                <div class="section contact">
+                    <span class="label label-default">Contact</span>
+                    <address>
+                        <span class="name">Linh Van Nguyen</span><br>
+                        Hampden-Sydney College<br>
+                        Box 1631<br>
+                        Farmville, VA 23943<br>
+                        <br>
+                        <i class="fa fa-phone icon"></i> 804.714.6404 <br>
+                        <i class="fa fa-envelope icon"></i> nguyenl16 [at] hsc.edu <br>
+                        <i class="fa fa-linkedin icon"></i> <a href="https://www.linkedin.com/pub/linh-nguyen/57/30a/368" target="_blank">LinkedIn</a> <br>
+                    </address>
+                </div>
+            </div>
+        </div>
 
-        <div class="container">
+        <div class="col-sm-9 col-xs-12">
+            <div id="content">
+                <a class="anchor" id="about"></a>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>
+                        I am a senior from Hampden-Sydney College, VA, pursuing a bachelor degree in Physics and Applied Mathematics, with a minor in Computer Science. 
+                        I currently work with the <a href="http://www.ncsa.illinois.edu/enabling/bluewaters" target="_blank">Blue Waters</a> (BW) supercomputer to accelerate SQL queries using BW's GPU-enabled nodes. Last year, I worked with
+                        <a href="http://www.cs.virginia.edu/~skadron//" target="_blank">Dr.Skadron</a> at University of Virginia on accelerating two applications, one in thermal modeling and the other in parallel encoding.  
+                        </p>
+                        <p>
+                        My research interests lie in the area of parallel computing, especially GPU Computing and its applications. In particular, both general parallel 
+                        primitives and application-specific GPU implementations highly intrigue me. My other interests include Computer Modelling and Simulation.
+                        </p>
+                        <p>
+                        My Honors project for Physics started in Spring 2014 has reached an interesting point: we showed that an opimized version of quantum annealer
+                        currently matches the performance of an alledged "quantum computer", the D-Wave One. I'll resume working on this project in Spring 2015. This semester, I 
+                        will begin designing a loop-parallelizing compiler that targets the CUDA platform. The idea stems from my experiences working with specific 
+                        applications, which generally entails redesigning the underlying algorithms to extract data-parallelism. I aim to ease this process for programmers. 
+                        </p>
+                    </div>
+                </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                  <div class="intro-message" style="padding-bottom: 0px;">
-                        <div id="moi"><img src="img/me.png" alt="Linh Nguyen"></div>
-                        <h1 style="">Linh Nguyen</h1>
-                        <h3><span style="color: white; background-color: rgba(0, 0, 0, 0.3);">Hampden-Sydney College</span></h3>
-                        <h3><span style="color: white; background-color: rgba(0, 0, 0, 0.6);">Physics, Applied Math, Computer Enthusiast</span></h3>
+                <a class="anchor" id="publications"></a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h2>Current Projects</h2>
+                        </div>
+                        <table>
+                            <tr><td class="pic"> <img width=120 src="https://camo.githubusercontent.com/de532e81410bf94c0d5d630c75febe998e796dc2/687474703a2f2f706262616b6b756d2e636f6d2f76697267696e69616e2f70657266686973742e6a7067" alt="query speedups" class="special"></td>
+                                <td style="padding-left:20px" class="entry">
+                                    <b>Developing multi-GPU configuration for accelerating SQL queries</b><br>
+                                    Linh Nguyen, Paul Hemler<br> 
+                                    <br>
+                                </td>
+                            </tr>
+                        </table>
 
-                        <h3><span style="color: white; background-color: rgba(0, 0, 0, 0.3);">Cell: 804-714-6404</span></h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons" style="display: -webkit-inline-box">
-                            <li>
-                                <a href="https://www.linkedin.com/pub/linh-nguyen/57/30a/368" class="btn btn-default btn-lg" id="tub" style="background-color: rgba(13, 0, 160, 0.2);"><span class="network-name">LinkedIn</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/vlnguyen92" class="btn btn-default btn-lg" id="tub" style="background-color: rgba(13, 107, 0, 0.2);"><span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                            <a href="CV.pdf" class="btn btn-default btn-lg" id="tub" style="background-color: rgba(141, 0, 0, 0.2);"><span class="network-name">My CV</span></a>
-                            </li>
-                            <li> 
-                            <a href="home.html" class="btn btn-default btn-lg" id="tub" style="background-color: rgba(255, 193, 37, 0.2);"><span class="network-name">Home Page</span></a>
-                            </li>
-                        </ul>
+                        <table>
+                            <tr><td  class="pic"> <img width=120 src="http://cophy-wiki.informatik.uni-koeln.de/upload/math/d/5/c/d5c2b9d017cb2f596dafc6e995da4d74.png" alt="Ising Spin Glasses" class="special"></td><td  style="padding-left:20px" class="entry">
+                                    <b>Optimizations for Finding Ground States of Quantum Ising Spin Glasses</b><br>
+                                    Linh Nguyen, Hugh O. Thurman III<br> 
+                                    <br>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr><td  class="pic"> <img width=120 src="img/rsz_cluster.jpg" alt="Parallela cluster" class="special"></td><td style="padding-left:20px" class="entry">
+                                    <b>Building a Small Scale Distributed System</b><br>
+                                    Samuel Sheffield, Linh Nguyen, Paul Hemler<br> 
+                                    <br>
+                                </td>
+                            </tr>
+                        </table>
+
                     </div>
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
 
-    </div>
-    <!-- /.intro-header -->
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.2.js"></script>
+        <!-- Scripts -->
+        <script src="dist/js/compiled.min.js"></script>
+        <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+ga('create', 'UA-57421502-1', 'auto');
+ga('send', 'pageview');
 
-
-
-
-</body></html>
+        </script>
+        </body>
+        </html>
 
