@@ -1,4 +1,6 @@
 /* latin-ext */
+body {background-color: lightgray}
+
 @font-face {
   font-family: 'Lato';
   font-style: normal;
